@@ -1,3 +1,202 @@
+<script setup>
+import { portText } from "@/constants/index"
+</script>
+
+
 <template>
-    port
+    <section id="port">
+        <div class="port__inner">
+            <div class="port__title">
+                portfolio <em>포폴 작업물</em>
+            </div>
+            <div class="port__wrap">
+                <div :class="`port__item p${key + 1}`" v-for="(port, key) in portText" :key="key">
+                    <span class="num">{{ port.num }}.</span>
+                    <a :href="port.code" target="_blank" class="img">
+                        <img :src="port.img" :alt="port.name" />
+                    </a>
+                    <h3 class="title">{{ port.title }}</h3>
+                    <p class="desc">{{ port.desc }}</p>
+                    <a :href="port.view" target="_blank" class="site">사이트 보기</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //port -->
 </template>
+<script>
+import gsap from "gsap"
+import ScrollTrigger from "gsap/ScrollTrigger"
+gsap.registerPlugin(ScrollTrigger);
+
+export default {
+    mounted: function () {
+        this.scrollAnimation();
+    },
+    methods: {
+        scrollAnimation() {
+            const horSection = gsap.utils.toArray(".port__item");
+
+            gsap.to(horSection, {
+                xPercent: -120 * (horSection.length - 1),
+                ease: "none",
+                scrollTrigger: {
+                    trigger: "#port",
+                    start: "top 56px",
+                    end: "+=3000",
+                    pin: true,
+                    scrub: 1,
+                    markers: false,
+                    invalidateOnRefresh: true,
+                    anticipatePin: 1,
+                },
+            });
+        }
+    }
+}
+</script>
+
+
+<style lang="scss">
+#port {
+    width: 100%;
+    overflow: hidden;
+}
+
+.port__inner {
+    padding: 16px;
+}
+
+.port__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 7000px;
+}
+
+.port__item {
+    width: 500px;
+    // height: 80vh;
+    padding: 2.5rem;
+    margin-right: 20px;
+}
+
+.port__title {
+    width: 100%;
+    height: 5vw;
+    font-size: 4vw;
+    font-weight: 900;
+    line-height: 1.6;
+    font-family: var(--mainEng-font);
+    text-transform: uppercase;
+    color: var(--sub02);
+    border-bottom: 0.4vw solid var(--sub02);
+    margin-bottom: 16px;
+    text-indent: -0.26vw;
+}
+
+.port__title em {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.port__item.p1 {
+    background-color: var(--sub11);
+}
+
+.port__item.p2 {
+    background-color: var(--sub12);
+}
+
+.port__item.p3 {
+    background-color: var(--sub11);
+}
+
+.port__item.p4 {
+    background-color: var(--sub12);
+}
+
+.port__item.p5 {
+    background-color: var(--sub11);
+}
+
+.port__item.p6 {
+    background-color: var(--sub12);
+}
+
+.port__item.p7 {
+    background-color: var(--sub11);
+}
+
+.port__item.p8 {
+    background-color: var(--sub12);
+}
+
+.port__item.p9 {
+    background-color: var(--sub11);
+}
+
+.port__item.p10 {
+    background-color: var(--sub12);
+}
+
+.port__item .num {
+    font-size: 1.8rem;
+    font-family: var(--mainNum-font);
+    color: var(--sub02);
+    line-height: 1;
+    font-weight: 900;
+    font-family: var(--mainNum-font);
+}
+
+.port__item img {
+    display: block;
+}
+
+.port__item .title {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.8rem 0;
+    font-weight: 700;
+    // color: var(--sub01);
+    border-bottom: 2px solid var(--sub02);
+    margin-bottom: 1rem;
+}
+
+.port__item .desc {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.port__item .site {
+    border: 1px solid var(--black100);
+    display: block;
+    text-align: center;
+    padding: 0.625rem 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.port__item .site:hover {
+    background-color: var(--black100);
+    color: var(--white);
+}
+
+@media (max-width: 800px) {
+    .port__title {
+        width: 100%;
+        margin-bottom: 16px;
+        font-size: 30px;
+        height: auto;
+        top: 68px;
+        z-index: 1000;
+        background-color: var(--mainBg-color);
+
+    }
+
+    .port__item {
+        width: 400px;
+        padding: 40px 30px;
+        height: auto;
+    }
+}
+</style>
