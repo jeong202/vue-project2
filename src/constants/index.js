@@ -42,46 +42,46 @@ export const skillText = [
 export const siteText = [
     {
         text: ["make", "site compliant with", "webstandard"],
-        title: "1.react를 이용한 사이트 제작",
+        title: "1.Vue.js를 이용한 사이트 제작",
         code: "/",
         view: "/",
         info: [
             "site coding",
             "production period : two days",
-            "use stack : HTML5/CSS3, CSS Variable, react",
+            "use stack : HTML5/CSS3, CSS Variable, Vue.js",
         ],
     },
     {
         text: ["make", "site compliant with", "webstandard"],
-        title: "2.react를 이용한 사이트 제작",
+        title: "2.Vue.js를 이용한 사이트 제작",
         code: "/",
         view: "/",
         info: [
             "site coding",
             "production period : two days",
-            "use stack : HTML5/CSS3, CSS Variable, react",
+            "use stack : HTML5/CSS3, CSS Variable, Vue.js",
         ],
     },
     {
         text: ["make", "site compliant with", "webstandard"],
-        title: "3.react를 이용한 사이트 제작",
+        title: "3.Vue.js를 이용한 사이트 제작",
         code: "/",
         view: "/",
         info: [
             "site coding",
             "production period : two days",
-            "use stack : HTML5/CSS3, CSS Variable, react",
+            "use stack : HTML5/CSS3, CSS Variable,Vue.js",
         ],
     },
     {
         text: ["make", "site compliant with", "webstandard"],
-        title: "4.react를 이용한 사이트 제작",
+        title: "4.Vue.js를 이용한 사이트 제작",
         code: "/",
         view: "/",
         info: [
             "site coding",
             "production period : two days",
-            "use stack : HTML5/CSS3, CSS Variable, react",
+            "use stack : HTML5/CSS3, CSS Variable, Vue.js",
         ],
     }
 ];
@@ -89,8 +89,8 @@ export const siteText = [
 export const portText = [
     {
         num: "01",
-        title: "1. 리액트를 이용한 포트폴리오",
-        desc: "리액트를 활용한 포트폴리오는 웹 개발자가 자신의 작업물을 효과적으로 전시할 수 있는 강력한 도구입니다. 리액트의 컴포넌트 기반 아키텍처를 활용하여 각 프로젝트를 모듈화하고, 상태 관리를 용이하게 합니다.",
+        title: "1. Vue.js를 이용한 포트폴리오",
+        desc: "Vue.js를 활용한 포트폴리오는 간결하면서도 강력한 양방향 데이터 바인딩 및 컴포넌트 기반 아키텍처를 통해 빠르게 반응성 웹 애플리케이션을 개발할 수 있으며, 직관적이고 가독성 좋은 코드 작성을 통해 개발 생산성을 높입니다",
         img: port01,
         code: "/",
         view: "/",
@@ -98,8 +98,8 @@ export const portText = [
     },
     {
         num: "02",
-        title: "2. 리액트를 이용한 포트폴리오",
-        desc: "리액트를 활용한 포트폴리오는 웹 개발자가 자신의 작업물을 효과적으로 전시할 수 있는 강력한 도구입니다. 리액트의 컴포넌트 기반 아키텍처를 활용하여 각 프로젝트를 모듈화하고, 상태 관리를 용이하게 합니다.",
+        title: "2. Vue.js를 이용한 포트폴리오",
+        desc: "Vue.js를 활용한 포트폴리오는 간결하면서도 강력한 양방향 데이터 바인딩 및 컴포넌트 기반 아키텍처를 통해 빠르게 반응성 웹 애플리케이션을 개발할 수 있으며, 직관적이고 가독성 좋은 코드 작성을 통해 개발 생산성을 높입니다",
         img: port01,
         code: "/",
         view: "/",
@@ -107,8 +107,8 @@ export const portText = [
     },
     {
         num: "03",
-        title: "3. 리액트를 이용한 포트폴리오",
-        desc: "리액트를 활용한 포트폴리오는 웹 개발자가 자신의 작업물을 효과적으로 전시할 수 있는 강력한 도구입니다. 리액트의 컴포넌트 기반 아키텍처를 활용하여 각 프로젝트를 모듈화하고, 상태 관리를 용이하게 합니다.",
+        title: "3. Vue.js를 이용한 포트폴리오",
+        desc: "Vue.js를 활용한 포트폴리오는 간결하면서도 강력한 양방향 데이터 바인딩 및 컴포넌트 기반 아키텍처를 통해 빠르게 반응성 웹 애플리케이션을 개발할 수 있으며, 직관적이고 가독성 좋은 코드 작성을 통해 개발 생산성을 높입니다",
         img: port01,
         code: "/",
         view: "/",
@@ -116,8 +116,8 @@ export const portText = [
     },
     {
         num: "04",
-        title: "4. 리액트를 이용한 포트폴리오",
-        desc: "리액트를 활용한 포트폴리오는 웹 개발자가 자신의 작업물을 효과적으로 전시할 수 있는 강력한 도구입니다. 리액트의 컴포넌트 기반 아키텍처를 활용하여 각 프로젝트를 모듈화하고, 상태 관리를 용이하게 합니다.",
+        title: "4. Vue.js를 이용한 포트폴리오",
+        desc: "Vue.js를 활용한 포트폴리오는 간결하면서도 강력한 양방향 데이터 바인딩 및 컴포넌트 기반 아키텍처를 통해 빠르게 반응성 웹 애플리케이션을 개발할 수 있으며, 직관적이고 가독성 좋은 코드 작성을 통해 개발 생산성을 높입니다",
         img: port01,
         code: "/",
         view: "/",
@@ -125,8 +125,8 @@ export const portText = [
     },
     {
         num: "05",
-        title: "5. 리액트를 이용한 포트폴리오",
-        desc: "리액트를 활용한 포트폴리오는 웹 개발자가 자신의 작업물을 효과적으로 전시할 수 있는 강력한 도구입니다. 리액트의 컴포넌트 기반 아키텍처를 활용하여 각 프로젝트를 모듈화하고, 상태 관리를 용이하게 합니다.",
+        title: "5. Vue.js를 이용한 포트폴리오",
+        desc: "Vue.js를 활용한 포트폴리오는 간결하면서도 강력한 양방향 데이터 바인딩 및 컴포넌트 기반 아키텍처를 통해 빠르게 반응성 웹 애플리케이션을 개발할 수 있으며, 직관적이고 가독성 좋은 코드 작성을 통해 개발 생산성을 높입니다",
         img: port01,
         code: "/",
         view: "/",
@@ -134,8 +134,8 @@ export const portText = [
     },
     {
         num: "06",
-        title: "6. 리액트를 이용한 포트폴리오",
-        desc: "리액트를 활용한 포트폴리오는 웹 개발자가 자신의 작업물을 효과적으로 전시할 수 있는 강력한 도구입니다. 리액트의 컴포넌트 기반 아키텍처를 활용하여 각 프로젝트를 모듈화하고, 상태 관리를 용이하게 합니다.",
+        title: "6. Vue.js를 이용한 포트폴리오",
+        desc: "Vue.js를 활용한 포트폴리오는 간결하면서도 강력한 양방향 데이터 바인딩 및 컴포넌트 기반 아키텍처를 통해 빠르게 반응성 웹 애플리케이션을 개발할 수 있으며, 직관적이고 가독성 좋은 코드 작성을 통해 개발 생산성을 높입니다",
         img: port01,
         code: "/",
         view: "/",
@@ -143,8 +143,8 @@ export const portText = [
     },
     {
         num: "07",
-        title: "7. 리액트를 이용한 포트폴리오",
-        desc: "리액트를 활용한 포트폴리오는 웹 개발자가 자신의 작업물을 효과적으로 전시할 수 있는 강력한 도구입니다. 리액트의 컴포넌트 기반 아키텍처를 활용하여 각 프로젝트를 모듈화하고, 상태 관리를 용이하게 합니다.",
+        title: "7. Vue.js를 이용한 포트폴리오",
+        desc: "Vue.js를 활용한 포트폴리오는 간결하면서도 강력한 양방향 데이터 바인딩 및 컴포넌트 기반 아키텍처를 통해 빠르게 반응성 웹 애플리케이션을 개발할 수 있으며, 직관적이고 가독성 좋은 코드 작성을 통해 개발 생산성을 높입니다",
         img: port01,
         code: "/",
         view: "/",
@@ -152,8 +152,8 @@ export const portText = [
     },
     {
         num: "08",
-        title: "8. 리액트를 이용한 포트폴리오",
-        desc: "리액트를 활용한 포트폴리오는 웹 개발자가 자신의 작업물을 효과적으로 전시할 수 있는 강력한 도구입니다. 리액트의 컴포넌트 기반 아키텍처를 활용하여 각 프로젝트를 모듈화하고, 상태 관리를 용이하게 합니다.",
+        title: "8. Vue.js를 이용한 포트폴리오",
+        desc: "Vue.js를 활용한 포트폴리오는 간결하면서도 강력한 양방향 데이터 바인딩 및 컴포넌트 기반 아키텍처를 통해 빠르게 반응성 웹 애플리케이션을 개발할 수 있으며, 직관적이고 가독성 좋은 코드 작성을 통해 개발 생산성을 높입니다",
         img: port01,
         code: "/",
         view: "/",
@@ -161,8 +161,8 @@ export const portText = [
     },
     {
         num: "09",
-        title: "9. 리액트를 이용한 포트폴리오",
-        desc: "리액트를 활용한 포트폴리오는 웹 개발자가 자신의 작업물을 효과적으로 전시할 수 있는 강력한 도구입니다. 리액트의 컴포넌트 기반 아키텍처를 활용하여 각 프로젝트를 모듈화하고, 상태 관리를 용이하게 합니다.",
+        title: "9. Vue.js를 이용한 포트폴리오",
+        desc: "Vue.js를 활용한 포트폴리오는 간결하면서도 강력한 양방향 데이터 바인딩 및 컴포넌트 기반 아키텍처를 통해 빠르게 반응성 웹 애플리케이션을 개발할 수 있으며, 직관적이고 가독성 좋은 코드 작성을 통해 개발 생산성을 높입니다",
         img: port01,
         code: "/",
         view: "/",
@@ -170,8 +170,8 @@ export const portText = [
     },
     {
         num: "10",
-        title: "10. 리액트를 이용한 포트폴리오",
-        desc: "리액트를 활용한 포트폴리오는 웹 개발자가 자신의 작업물을 효과적으로 전시할 수 있는 강력한 도구입니다. 리액트의 컴포넌트 기반 아키텍처를 활용하여 각 프로젝트를 모듈화하고, 상태 관리를 용이하게 합니다.",
+        title: "10. Vue.js를 이용한 포트폴리오",
+        desc: "Vue.js를 활용한 포트폴리오는 간결하면서도 강력한 양방향 데이터 바인딩 및 컴포넌트 기반 아키텍처를 통해 빠르게 반응성 웹 애플리케이션을 개발할 수 있으며, 직관적이고 가독성 좋은 코드 작성을 통해 개발 생산성을 높입니다",
         img: port01,
         code: "/",
         view: "/",
@@ -181,8 +181,8 @@ export const portText = [
 
 export const contactText = [
     {
-        link: "/",
-        title: "KAKAO : asd",
+        link: "https://github.com/jeong202",
+        title: "GitHub : https://github.com/jeong202",
     },
     {
         link: "mailto:jhyjhy968@gmail.com",
@@ -194,6 +194,6 @@ export const footerText = [
     {
         title: "github",
         desc: "깃헙에 들어오시면 모든 소스를 볼 수 있습니다.",
-        link: "/",
+        link: "https://github.com/jeong202",
     }
 ];
